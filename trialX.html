@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trialX.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <!-- Registration Form -->
+<form onsubmit="return validateRegisterForm()">
+    <input type="text" id="firstName" placeholder="First Name">
+    <input type="text" id="lastName" placeholder="Last Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button type="submit">Register</button>
+</form>
+
+<!-- Login Form -->
+<form onsubmit="return validateLoginForm()">
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button type="submit">Login</button>
+</form>
+
+<!-- Buttons to Switch Forms -->
+<button id="loginBtn" onclick="toggleForms(true)">Login</button>
+<button id="registerBtn" onclick="toggleForms(false)">Register</button>
+
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+body{
+	background-image: url(./images/bg1.jpg);
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+.container{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+.container h1{
+	font-size: 80px;
+	font-weight: 900;
+	font-family: "Rockwell";
+	color: rgb(249, 218, 159);
+	position: relative;
+	top: -350px;
+	left: 130px;
+}
+.big-letter{
+	font-size: 2em;
+	font-weight: bold;
+	font-family: "LEMON MILK";
+	color: rgb(196, 183, 6);
+	position: relative;
+	top: 22px;
+	margin-left: -50px;
+}
+.container p{
+	color: rgb(229, 218, 176);
+	font-family: "Lato";
+	font-size: 22px;
+	left: -30px;
+	top: -430px;
+	
+	position: relative;
+    justify-content: center;
+}
+table{
+	background-color: transparent;
+	width: 400px;
+	height: 100px;
+	right: -100px;
+	top: 380px;
+	position: relative;
+}
+.item tr,td, th{
+	position: relative;
+    justify-content: center;
+	left: 350px;
+	top: -130px;
+}
+.Table table{
+	width: 900px;
+}
+.days{
+	position: relative;
+	right: 50px;
+}
+.days tr, td{
+	background: linear-gradient(to right, #b18749, rgb(161, 141, 106));
+	color: rgb(96, 67, 27);
+	font-size: 18px;
+	font-weight: 600;
+	align-items: center;
+	text-align: center;
+	border: none;
+	border-radius: 5%;
+}
+.days tr, th{
+	background: linear-gradient(to right, #6a6137, rgb(134, 96, 31));
+	color: burlywood;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	width: 100px;
+}
+.days.item th, td{
+	position: relative;
+    justify-content: center;
+	left: 770px;
+	top: -140px;
+}
+.TeachersImage img{
+	width: 80px;
+	height: 80px;
+	border: 5px solid rgb(92, 69, 69);
+	border-radius: 50%;
+	right: 30px;
+	top: 20px;
+	position: absolute;
+}
+.TeachersImage img:hover{
+	transform: rotateY(360deg);
+	transition: 2.5s ease-in-out;
+	cursor: pointer;
+}
+
